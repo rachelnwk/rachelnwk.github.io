@@ -1,0 +1,185 @@
+body {
+  background-color: white;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #333;
+color: #f0f0f0;
+}
+
+body.dark-mode header a {
+color: #f0f0f0; }
+
+
+body.dark-mode nav {
+  background-color: #555; 
+color: #ccc; 
+}
+
+body.dark-mode footer {
+  background-color: #555; 
+  color: #ccc;
+}
+
+body.disableani {
+	transition: background-color 0.0s, color 0.0s;
+}
+
+body.disableani nav{
+	transition: background-color 0.0s, color 0.0s;
+}
+
+body.disableani footer{
+	transition: background-color 0.0s, color 0.0s;
+}
+
+#lightdark {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#fontToggleBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#animations {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+body.comic-sans {
+  font-family: 'Comic Sans MS', cursive;
+}
+
+body.comic-sans footer {
+  font-family: 'Comic Sans MS', cursive;
+}
+
+body.comic-sans nav{
+  font-family: 'Comic Sans MS', cursive;
+}
+
+body.comic-sans button{
+  font-family: 'Comic Sans MS', cursive;
+}
+
+a:link { 
+  text-decoration: none; 
+} 
+a:visited { 
+  text-decoration: none; 
+} 
+a:hover { 
+  text-decoration: none; 
+} 
+a:active { 
+  text-decoration: none; 
+}
+
+nav {
+  transition: background-color 0.3s, color 0.3s;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header a {
+  color: black;
+}
+
+footer {
+  transition: background-color 0.3s, color 0.3s;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 40px;
+  justify-content: center;
+}
+}
+
+main{
+	margin-top: 40px;
+}
+
+#toprow{
+	width:100%;
+    text-align:center;
+}
+
+#button{
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#title {
+	padding: 20px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+#top {
+	float: right;
+	font-size: 20px;
+}
+
+.toptext{
+	padding: 30px;
+}
+
+.navimg{
+	margin: 15px 75px 15px 75px;
+}
+
+.carousel{
+	margin: 15px 0px 15px 80px;
+}
+
+#socials{
+	display: inline-block;
+    text-align: center;
+	float: right;
+}
+
+#socialtext{
+	font-size: 20px;
+	margin: 10px;
+	padding: 40px;
+}
+
+#about{
+	text-align: center;
+	font-size: 30px;
+}
+
+#setup{
+	float: right;
+	padding: 10px;
+}
+
+main{
+	margin-top: 40px;
+}
+
+#warning{
+	color: red; /* Style the message if JavaScript is disabled */
+    font-weight: bold;
+}
+
+
+
+

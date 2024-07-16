@@ -1,0 +1,50 @@
+#types_section{
+	clear:both;
+	width: 100%;
+	text-align: center;
+}
+
+.tiles{
+	display:inline-block;
+	width: 200px;
+    padding: 60px;
+}
+
+.obj{
+	display: flex;
+ align-items: center;
+}
+
+#nametext{
+	margin: 15px 400px 15px 200px;
+}
+
+#tilestext{
+	margin: 15px 200px 15px 400px;
+}
+
+.handname{
+	font-size: 20px;
+	margin-right: 40 px;
+}
+
+.hd{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#strategies{
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+#searchbar{
+	padding: 90px;
+	text-align: left;
+}
+
+#desc{
+	text-align: center;
+}
